@@ -2,6 +2,7 @@ package cursojava.classes;
 
 public class Aluno {
 	
+	//Esses são os atributos do Aluno
 	String nome;
 	int idade;
 	String dataNascimento;
@@ -16,7 +17,7 @@ public class Aluno {
 	public Aluno() {
 	}
 	
-	public Aluno(String nomePadrao) {
+	public Aluno(String nomePadrao) {//Cria os dados memoria - sendo padrão do Java
 		this.nome=nomePadrao;
 	}
 	
